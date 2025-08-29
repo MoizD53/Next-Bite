@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next-Bite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f8f3;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: rgb(232, 109, 193);
+      color: white;
+    }
+
+    header img {
+      height: 100px;
+    }
+
+    nav a {
+      color: rgb(232, 240, 226);
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 80px 20px;
+      background: url('https://images.unsplash.com/photo-1600891965050-2a72b95f9a68?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: rgb(124, 148, 222);
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 700px;
+    }
+
+    .btn {
+      background: #ffb300;
+      color: #333;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #ffa000;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #2e7d32;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background: rgb(228, 149, 149);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffeb3b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div>
+      <img src="C:\Users\Moiz Dheela\Downloads\ChatGPT Image Aug 29, 2025, 10_11_41 AM.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Next-Bite</h1>
+    <p>Turning food waste into affordable meals for students and communities. Together, we can build a hunger-free, waste-free campus.</p>
+    <a href="#solution" class="btn">Learn More</a>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="section" id="problem">
+    <h2>The Problem</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      Every night, hostel messes and restaurants throw away fresh but unsold food. Meanwhile, students often struggle to find affordable food late at night. This creates both food waste and hunger in our communities.
+    </p>
+  </section>
+
+  <!-- Solution Section -->
+  <section class="section" id="solution">
+    <h2>Our Solution</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Smart Platform</h3>
+        <p>Restaurants list surplus food safely before closing hours.</p>
+      </div>
+      <div class="card">
+        <h3>Affordable Meals</h3>
+        <p>Students order meals at 50% lower cost through our app.</p>
+      </div>
+      <div class="card">
+        <h3>Community Delivery</h3>
+        <p>Student volunteers and part-timers deliver food quickly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section" id="benefits">
+    <h2>Key Benefits</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Zero Waste</h3>
+        <p>Reduce food wastage by redirecting leftovers.</p>
+      </div>
+      <div class="card">
+        <h3>Zero Hunger</h3>
+        <p>Provide affordable meals to students in need.</p>
+      </div>
+      <div class="card">
+        <h3>Eco-Friendly</h3>
+        <p>Support a sustainable and socially responsible system.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+    <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">
+      📞 Call us: <br>
+      <strong>+91 9313846266</strong>, <strong>+91 7984625932</strong>
+    </p>
+    <p style="text-align:center;">
+      📧 Email us: <br>
+      <a href="mailto:moizdhilawala99@gmail.com">moizdhilawala99@gmail.com</a><br>
+      <a href="mailto:anshupatelll9919@gmail.com">anshupatelll9919@gmail.com</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Next-Bite| Designed with ❤️ for a hunger-free campus</p>
+  </footer>
+
+
+</body>
+</html>
